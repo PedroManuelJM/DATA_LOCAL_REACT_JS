@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/DATA_LOCAL_REACT_JS/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/DATA_LOCAL_REACT_JS/static/js/main.61e9e208.chunk.js",
-    "main.js.map": "/DATA_LOCAL_REACT_JS/static/js/main.61e9e208.chunk.js.map",
-    "runtime-main.js": "/DATA_LOCAL_REACT_JS/static/js/runtime-main.2f6cc5bd.js",
-    "runtime-main.js.map": "/DATA_LOCAL_REACT_JS/static/js/runtime-main.2f6cc5bd.js.map",
+    "main.js": "/DATA_LOCAL_REACT_JS/static/js/main.b008c351.chunk.js",
+    "main.js.map": "/DATA_LOCAL_REACT_JS/static/js/main.b008c351.chunk.js.map",
+    "runtime-main.js": "/DATA_LOCAL_REACT_JS/static/js/runtime-main.867bf0bc.js",
+    "runtime-main.js.map": "/DATA_LOCAL_REACT_JS/static/js/runtime-main.867bf0bc.js.map",
     "static/css/2.150d169a.chunk.css": "/DATA_LOCAL_REACT_JS/static/css/2.150d169a.chunk.css",
-    "static/js/2.784fe528.chunk.js": "/DATA_LOCAL_REACT_JS/static/js/2.784fe528.chunk.js",
-    "static/js/2.784fe528.chunk.js.map": "/DATA_LOCAL_REACT_JS/static/js/2.784fe528.chunk.js.map",
-    "static/js/3.a582c0d8.chunk.js": "/DATA_LOCAL_REACT_JS/static/js/3.a582c0d8.chunk.js",
-    "static/js/3.a582c0d8.chunk.js.map": "/DATA_LOCAL_REACT_JS/static/js/3.a582c0d8.chunk.js.map",
+    "static/js/2.8b4bcf7f.chunk.js": "/DATA_LOCAL_REACT_JS/static/js/2.8b4bcf7f.chunk.js",
+    "static/js/2.8b4bcf7f.chunk.js.map": "/DATA_LOCAL_REACT_JS/static/js/2.8b4bcf7f.chunk.js.map",
+    "static/js/3.89426e18.chunk.js": "/DATA_LOCAL_REACT_JS/static/js/3.89426e18.chunk.js",
+    "static/js/3.89426e18.chunk.js.map": "/DATA_LOCAL_REACT_JS/static/js/3.89426e18.chunk.js.map",
     "index.html": "/DATA_LOCAL_REACT_JS/index.html",
     "static/css/2.150d169a.chunk.css.map": "/DATA_LOCAL_REACT_JS/static/css/2.150d169a.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/DATA_LOCAL_REACT_JS/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.784fe528.chunk.js.LICENSE.txt": "/DATA_LOCAL_REACT_JS/static/js/2.784fe528.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/DATA_LOCAL_REACT_JS/static/media/logo.6ce24c58.svg"
+    "static/js/2.8b4bcf7f.chunk.js.LICENSE.txt": "/DATA_LOCAL_REACT_JS/static/js/2.8b4bcf7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f6cc5bd.js",
+    "static/js/runtime-main.867bf0bc.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.784fe528.chunk.js",
+    "static/js/2.8b4bcf7f.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.61e9e208.chunk.js"
+    "static/js/main.b008c351.chunk.js"
   ]
 }
