@@ -38,7 +38,7 @@ export default class Home extends Component {
                         <td>{itemSuperheroe.id}</td>
                         <td>{itemSuperheroe.nombres}</td>
                         <td>{itemSuperheroe.cargo}</td>
-                        <td> <img src={'/img/'+itemSuperheroe.foto} className="img-fluid" /></td>
+                        <td> <img src={'./img/'+itemSuperheroe.foto} className="img-fluid" /></td>
                       </tr>
                   )}
               </tbody>
