@@ -25,15 +25,15 @@ export default class Home extends Component {
       return(
         <section>
         <div className="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
                  {datosTabla.map(itemSuperheroe=>
                     <div className="col"  key={itemSuperheroe.id}>
                         <div className="card">
-                         
                             <img src={'./img/'+itemSuperheroe.foto} className="img-fluid" />
                             <div className="card-body">
-                                <h5 className="card-title">{itemSuperheroe.nombres}</h5>
+                                <h5 id="superheroe" className="card-title">{itemSuperheroe.nombres}</h5>
                                 <p className="card-text">{itemSuperheroe.cargo}</p>
+                                <span className="badge bg-warning">{itemSuperheroe.ciudad}</span>
                             </div>
                         </div>
                         <br></br>
@@ -50,7 +50,8 @@ export default class Home extends Component {
       return (
           <section id="colaboradores" className="padded-40">
               <div className="container">
-                <h2>Superheroes</h2>
+                <h2 id="titulo" className="padded">Superheroes de <span style={{color: "#41BF9B"}} > DC Comics </span>  y <span style={{color: "#F24141"}} > Marvel Comics </span> </h2>
+                <p> Usando dataLocal para mostrar los datos. </p>  
                     <div className="row">
                         <div className="col-md-12">
                             {contenidoTabla}

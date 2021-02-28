@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card{
+  background-color: white;
+  border: 1px #CCCCCC solid;
+  border-top: 13px solid #CCCCCC;
+}
+.padded{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#titulo{
+  font-family: 'Anton', sans-serif;
+}
+
+#superheroe{
+  font-family: 'Permanent Marker', cursive;
 }
