@@ -23,58 +23,39 @@ export default class Home extends Component {
 
   dibujarTabla(datosTabla){
       return(
-          <table id="example" className="table table-striped table-bordered " >
-              <thead>
-                  <tr>
-                    <th>Cod</th>
-                    <th>Nombres</th>
-                    <th>Cargo</th>
-                    <th></th>
-                  </tr>
-              </thead>
-              <tbody>
-                  {datosTabla.map(itemSuperheroe=>
-                      <tr key={itemSuperheroe.id}>
-                        <td>{itemSuperheroe.id}</td>
-                        <td>{itemSuperheroe.nombres}</td>
-                        <td>{itemSuperheroe.cargo}</td>
-                        <td> <img src={'./img/'+itemSuperheroe.foto} className="img-fluid" /></td>
-                      </tr>
-                  )}
-              </tbody>
-          </table>
+        <section>
+        <div className="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                 {datosTabla.map(itemSuperheroe=>
+                    <div className="col"  key={itemSuperheroe.id}>
+                        <div className="card">
+                         
+                            <img src={'./img/'+itemSuperheroe.foto} className="img-fluid" />
+                            <div className="card-body">
+                                <h5 className="card-title">{itemSuperheroe.nombres}</h5>
+                                <p className="card-text">{itemSuperheroe.cargo}</p>
+                            </div>
+                        </div>
+                        <br></br>
+                    </div>
+                )}
+            </div>
+        </div>
+    </section>
           )
   }
 
-
-  mostrarColaborador(){
-    var colaborador = this.state.colaboradorSeleccionado
-    return(
-        <div>
-            <h3>Colaborador Seleccionado</h3>
-            <h4>{colaborador.nombres}</h4>
-            <img src={require('./../' + colaborador.foto)} className="img-fluid" alt={colaborador.nombres}/>
-            <p>{colaborador.cargo}</p>
-            <p>{colaborador.ciudad}</p>
-         </div>
-    )
-  }
-  
   render(){
     let contenidoTabla = this.dibujarTabla(this.state.listaSuperheroes);
-
       return (
           <section id="colaboradores" className="padded-40">
               <div className="container">
-                <h2>Colaboradores</h2>
+                <h2>Superheroes</h2>
                     <div className="row">
-                        <div className="col-md-7">
+                        <div className="col-md-12">
                             {contenidoTabla}
-                        </div>
-                        <div className="col-md-5">
-                          
-                        </div>                
-                </div>
+                        </div>               
+                    </div>
               </div>
           </section>
       );
